@@ -40,11 +40,11 @@ flex-wrap: wrap;
 }
 /*for flex child*/
 #grid-flex .grid-item:nth-child(1){
-  width: 45%;
+  width: 44.7%;
   background-color: yellow;
 }
 .grid-item:nth-child(1){
-  width: 45%;
+  width: 44.7%;
   background-color: lightgreen;
 }
 ul{
@@ -66,10 +66,10 @@ ul{
   width: 30%;
 }
 .grid-item:nth-child(1),.grid-item:nth-child(2){
-  width: 45.52%;
+  width: 44.7%;
 }
 #grid-flex .grid-item:nth-child(1), #grid-flex .grid-item:nth-child(2){
-  width: 45.52%;
+  width: 44.7%;
 }
 }
 
@@ -82,11 +82,11 @@ ul{
   width: 100%;
 }
 .grid-item{
-  width: 44%;
+  width: 44.7%;
   height: 450px;
 }
 #grid-flex .grid-item{
-  width: 44%;
+  width: 44.7%;
   height: 450px;
 }
 .grid-item:nth-child(1){
