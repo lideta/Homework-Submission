@@ -1,0 +1,98 @@
+/*floats*/
+#grid-floats{
+  width: 100%;
+}
+body{
+  background-color: #lightblue;
+  color: darkblue;
+}
+.grid-item img{
+  width: 25%;
+}
+h2{
+  clear: both;
+  text-align: center;
+  color: red;
+}
+/*flex*/
+#grid-flex{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+}
+.grid-item{
+  width: 22%;
+  float: left;
+  height: 400px;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: #7FFF00;
+  text-align: center;
+}
+/*for flex*/
+#grid-flex .grid-item{
+  width: 22%;
+  height: 400px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border: 1px solid blue;
+  text-align: center;
+}
+/*for flex child*/
+#grid-flex .grid-item:nth-child(1){
+  width: 44.7%;
+  background-color: yellow;
+}
+.grid-item:nth-child(1){
+  width: 44.7%;
+  background-color: lightgreen;
+}
+ul{
+  list-style: none;
+}
+
+/*for tablet*/
+@media screen and (max-width:1023px) and (min-width:769px){
+#grid-floats{
+  width: 100%;
+}
+#grid-flex{
+  width: 100%;
+}
+.grid-item{
+  width: 30%;
+}
+#grid-flex .grid-item{
+  width: 30%;
+}
+.grid-item:nth-child(1),.grid-item:nth-child(2){
+  width: 44.7%;
+}
+#grid-flex .grid-item:nth-child(1), #grid-flex .grid-item:nth-child(2){
+  width: 44.7%;
+}
+}
+
+/*for mobile*/
+@media screen and (max-width:768px){
+#grid-floats{
+  width: 100%;
+}
+#grid-flex{
+  width: 100%;
+}
+.grid-item{
+  width: 44.7%;
+  height: 450px;
+}
+#grid-flex .grid-item{
+  width: 44.7%;
+  height: 450px;
+}
+.grid-item:nth-child(1){
+  width: 90%;
+}
+#grid-flex .grid-item:nth-child(1){
+width: 90%;
+}
+}
